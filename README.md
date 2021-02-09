@@ -10,7 +10,8 @@ Docker: https://hub.docker.com
 Tesseract: https://github.com/tesseract-ocr/tesseract
 
 ## Usage Notes
-1. Clone from git
+1. Clone from git:
+`git clone https://github.com/colin0brass/tesseract-docker.git`
 2. Build container:
 `docker build -t tesseract .`
 3. Run test:

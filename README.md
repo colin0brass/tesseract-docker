@@ -12,7 +12,9 @@ Tesseract: https://github.com/tesseract-ocr/tesseract
 ## Usage Notes
 1. Clone from git:
 `git clone https://github.com/colin0brass/tesseract-docker.git`
-2. Build container:
+2. Change to directory
+`cd tesseract-docker`
+3. Build container:
 `docker build -t tesseract .`
-3. Run test:
+4. Run test:
 `docker run --mount type=bind,source="$(pwd)"/test,target=/test tesseract:latest tesseract /test/Owl.png /test/Owl pdf`

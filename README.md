@@ -17,4 +17,4 @@ Tesseract: https://github.com/tesseract-ocr/tesseract
 3. Build container:
 `docker build -t tesseract .`
 4. Run test:
-`docker run --mount type=bind,source="$(pwd)"/test,target=/test tesseract:latest tesseract /test/Owl.png /test/Owl pdf`
+`docker run --mount type=bind,source="$(pwd)"/test,target=/test tesseract:latest tesseract /test/Owl.png /test/Owl pdf txt`
